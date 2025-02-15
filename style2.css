@@ -1,0 +1,32 @@
+ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  ul li a:hover {
+    background-color: black;
+    color: white;}
+
+    body{background-image: linear-gradient(to right,red,white);
+    }
+
+    div.scroll-container {overflow: auto;
+        white-space: nowrap;
+        padding: 200px;
+      }
+      
+      div.scroll-container img {
+        padding: 10px;
+      }
+
+      
+
