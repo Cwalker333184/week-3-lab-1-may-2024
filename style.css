@@ -2,3 +2,60 @@ html {
   height: 100%;
   width: 100%;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  position: relative;
+  top: 80%;
+  left: 35%;
+  padding: 9%;
+  font-size: 100px;
+  text-align: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-variant: normal;
+  color: white;
+  text-shadow: 5px 5px black;
+  transition-duration: 3s;
+}
+body {
+  background-image: url(https://i.pinimg.com/736x/0e/b7/0b/0eb70bcf602e948066460b2cf2f56c70.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+}
+
+p {
+  margin: 32px;
+  text-align: justify;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+}
